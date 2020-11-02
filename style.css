@@ -1,0 +1,11 @@
+body {
+  background-image: url(2.jpg);
+  background-size: 33%;
+  background-attachment: fixed;
+}
+header {
+  color: red;
+  border: 5px solid black;
+  height: 75px;
+  width: 200px;
+}

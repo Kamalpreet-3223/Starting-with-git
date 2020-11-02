@@ -1,0 +1,13 @@
+#l1 {
+  background-color: #fff46b;
+  background-size: 50%;
+  border: 5px solid black;
+  height: 75px;
+  width: 150px;
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  color: red;
+}
