@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="color : red ; background-color: lightblue">
+	<!-- Use GET not POST -->
+	<center><header>
+		<h1>Register</h1>
+	</header>
+	<br><br>
+	<form method="GET">
+		<div>
+		First Name: <input type="text" name="first name"><br><br>
+		Last Name : <input type="text" name="last name"><br><br>
+		Email Id  : <input type="email" name="email" required><br><br>
+		Password  : <input type="password" name="password" minlength="5" required><br><br>
+		Country   :
+        <select name="country">
+        	<option value="india">India</option>
+        	<option value="america">America</option>
+        	<option value="china">China</option>
+        	<option value="australia">Australia</option>
+        	<option>Other</option>
+        </select>
+        <br><br>
+        Gender :
+		
+		<input type="radio" name="gender" value="male">Male 
+		<input type="radio" name="gender" value="female">Female 
+		<input type="radio" name="gender" value="other">Other <br><br>
+		DOB : <input type="date"><br><br>
+		<input type="submit">
+		<input type="reset"><br><br>
+		After Registering login below<br><br>
+	    </div>
+	</form>
+	<div id="l1">
+	<a href="login.html"> <h1>Login</h1></a></li>
+	</div>
+	    	
+    </center>
+	<footer>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+		<p><h2>Thanks for Registering</h2></p>
+	</footer>
+
+</body>
+</html>
